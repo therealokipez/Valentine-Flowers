@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Flower Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Valentine's Flower Generator</h1>
+        <form id="flowerForm">
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <input type="text" id="location" placeholder="Enter your location" required>
+            <select id="color">
+                <option value="red">Red (Rose)</option>
+                <option value="yellow">Yellow (Sunflower)</option>
+                <option value="pink">Pink (Tulip)</option>
+                <option value="white">White (Lily)</option>
+                <option value="purple">Purple (Orchid)</option>
+            </select>
+            <button type="submit">Generate Flower</button>
+        </form>
+        <div id="result" class="hidden">
+            <h2 id="message"></h2>
+            <img id="flowerImage" src="" alt="Flower">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
