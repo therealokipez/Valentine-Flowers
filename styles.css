@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input, select, button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: red;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
