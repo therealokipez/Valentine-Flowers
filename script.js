@@ -23,7 +23,7 @@ document.getElementById("flowerForm").addEventListener("submit", function(event)
             "meaning": "Expresses admiration, care, and affection."
         },
         "white": {
-            "image": "white.jgp",
+            "image": "white.jpg",
             "name": "White Lily",
             "meaning": "Symbolizes purity, innocence, and devotion."
         },
